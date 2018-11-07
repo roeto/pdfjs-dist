@@ -31893,7 +31893,7 @@ var AnnotationFactory = function () {
             case 'Ch':
               return new ChoiceWidgetAnnotation(parameters);
           }
-          (0, _util.warn)('Unimplemented widget field type "' + fieldType + '", ' + 'falling back to base field type.');
+          
           return new WidgetAnnotation(parameters);
         case 'Popup':
           return new PopupAnnotation(parameters);
